@@ -1,0 +1,74 @@
+#i1{
+    margin: 1px;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(205, 191, 218);
+}
+.container1{
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+}
+.leftcontainer
+{
+    width: 32.5%;
+    margin-right: 2.5%;
+}
+.right-container{
+    width: 65%;
+    border: 2px solid rgb(240, 164, 64);
+    border-radius: 8px;
+}
+.top-container{
+    display: flex;
+    width: 100%;
+}
+.right-container{
+    background-color: rgb(247, 238, 226);
+}
+.grow{
+    padding: 5px;
+    width: 47.5% ;
+    border-radius: 8px;
+   
+}
+#b1{
+    margin-right: 2%;
+    background-color: rgb(229, 212, 235);
+    border: 2px solid rgb(188, 68, 231);
+}
+#b2{
+    background-color: rgb(247, 238, 226);
+    border: 2px solid rgb(240, 164, 64);
+}
+.line{
+    margin-bottom: 0;
+    margin-top: 2px;
+}
+.chart-head{
+    margin-top: 5px;
+    border: 1.5px solid black;
+    width: 97%;
+    padding: 1.5%;
+    text-align: center;
+    border-radius: 8px;
+    background-color: rgb(223, 223, 240);
+}
+.chartd
+{
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 0;
+    width: 96%;
+    height: 300px !important;
+    border-radius: 8px;
+}
+#ch2{
+    border: 1.5px solid black;
+}
+#Date2{
+    color:rgb(240, 164, 64);
+}
+#Date1{
+    color:rgb(188, 68, 231);
+} ;

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="D:\64SINGULARITY\style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+</script>
+    <title>Document</title>
+</head>
+<body>
+    <h2 id="i1">Banking Dashboard</h2>
+    <div class="container1">
+        <div class="leftcontainer">
+            <div class="top-container">
+                <div class="grow" id="b1">
+                    <p class="line"><b>Non-food Credit Growth</b></p>
+                    <p class="line" id = "Date1">31 December 2021</p>
+                    <p class="line"><b>9.3%</b></p>
+                </div>
+
+                <div class="grow" id="b2">
+                    <p class="line"><b>Deposit Growth</b></p>
+                    <p class="line" id="Date2">31 December 2021</p>
+                    <p class="line"><b>10.3%</b></p>
+                </div>
+            </div>
+
+            <div class="chart-head">
+                <p class="line"><b>Composition of bank-loans (September-2021)</b></p>
+            </div>
+            <div class="chartd" id="ch2">
+                <canvas id="chart2"></canvas>
+            </div>
+        </div>
+
+        <div class="right-container">
+            <canvas id="chart1" style="width:100%"></canvas>
+        </div>
+    </div>
+
+    <div class="container1">
+        <div class="leftcontainer">
+            <div class="chart-head">
+                <p class="line"><b>Loan Growth (YoY) by Bank Category</b></p>
+            </div>
+            <div class="chartd">
+                <canvas id="chart3"></canvas>
+            </div>
+        </div>
+        <div class="leftcontainer">
+            <div class="chart-head">
+                <p class="line"><b>Composition of Bank Deposits (September-2021)</b></p>
+            </div>
+            <div class="chartd">
+                <canvas id="chart4"></canvas>
+            </div>
+        </div>
+        <div class="leftcontainer">
+            <div class="chart-head">
+                <p class="line"><b>Deposit Growth (YoY) by Bank Category</b></p>
+            </div>
+            <div class="chartd">
+                <canvas id="chart5"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <div class="container1">
+        <div class="leftcontainer">
+            <div class="chart-head">
+                <p class="line"><b>Loan growth (YoY) by Sectors (Nov-2021)</b></p>
+            </div>
+            <div class="chartd">
+                <canvas id="chart6"></canvas>
+            </div>
+        </div>
+        <div class="leftcontainer">
+            <div class="chart-head">
+                <p class="line"><b>Loan growth (YoY) by Key Sub-sectors (Nov-2021)</b></p>
+            </div>
+            <div class="chartd">
+                <canvas id="chart7"></canvas>
+            </div>
+        </div>
+        <div class="leftcontainer">
+            <div class="chart-head">
+                <p class="line"><b>Average Lending & Deposit Rates of SCBs</b></p>
+            </div>
+            <div class="chartd">
+                <canvas id="chart8"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <div class="container1">
+        <div class="leftcontainer">
+            <div class="chart-head">
+                <p class="line"><b>Scheduled Commercial Banks Tier I Capital Ratio(%)</b></p>
+            </div>
+            <div class="chartd">
+                <canvas id="chart9"></canvas>
+            </div>
+        </div>
+        <div class="leftcontainer">
+            <div class="chart-head">
+                <p class="line"><b>Scheduled Commercial Banks GNPA - Ratio  (%)</b></p>
+            </div>
+            <div class="chartd">
+                <canvas id="chart10"></canvas>
+            </div>
+        </div>
+        <div class="leftcontainer">
+            <div class="chart-head">
+                <p class="line"><b>Scheduled Commercial Banks Stressed Assets Ratio(%)</b></p>
+            </div>
+            <div class="chartd">
+                <canvas id="chart11"></canvas>
+            </div>
+        </div>
+    </div>
+
+<script src="index.js"></script>
+ 
+</body>
+</html>
